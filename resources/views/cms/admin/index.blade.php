@@ -39,7 +39,6 @@
           <th>status</th>
           <th>mobile</th>
           <th>image</th>
-          <th>Gender</th>
           <th>settings</th>
 
         </tr>
