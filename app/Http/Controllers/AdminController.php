@@ -82,7 +82,7 @@ class AdminController extends Controller
             }
             else{
                 return response()->json(['icon'=>'error' , 'title'=>'Created is Faild'], 400);
-                return response()->json(['icon'=>'error' , 'title'=>$validator->get()], 400);
+                // return response()->json(['icon'=>'error' , 'title'=>$validator->get()], 400);
 
                 
             }
