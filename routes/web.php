@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 Route::prefix('cms/admin/')->group(function(){
-    Route::view('test' , 'cms.parent' );
+    Route::view('' , 'cms.parent' );
     Route::view('temp' , 'cms.temp' );
     Route::resource('countries' , CountryController::class);
     Route::post('countries_update/{id}', [CountryController::class, 'update']);//خاص بعملية التعديل بطريقة الجيسون
